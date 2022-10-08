@@ -1,0 +1,6 @@
+.container-fluid {
+    display: flex;
+    margin: 200px 400px;
+}
+
+.btn-push {}
