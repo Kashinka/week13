@@ -2,32 +2,40 @@
 
 function showMessagePlus() {
   
-    let name = prompt('Как тебя зовут?', "Имя");
+    let x = prompt('Введите первое число', "x");
+
+    let y = prompt('Введите второе число', "y");
     
-    alert('Привет, ' + name);
+    alert( Number(x) + Number(y) );
     
     }
 
 function showMessageMinus() {
   
-    let name = prompt('Как тебя зовут?', "Имя");
-        
-    lert('Привет, ' + name);
-        
+    let x = prompt('Введите первое число', "x");
+
+    let y = prompt('Введите второе число', "y");
+    
+    alert( Number(x) - Number(y) );
+    
     }
     
 function showMessageDivide() {
   
-    let name = prompt('Как тебя зовут?', "Имя");
-            
-    alert('Привет, ' + name);
-            
+    let x = prompt('Введите первое число', "x");
+
+    let y = prompt('Введите второе число', "y");
+    
+    alert( Number(x) / Number(y) );
+    
     }
 
 function showMessageMultiply() {
   
-    let name = prompt('Как тебя зовут?', "Имя");
-                
-    alert('Привет, ' + name);
-                
+    let x = prompt('Введите первое число', "x");
+
+    let y = prompt('Введите второе число', "y");
+    
+    alert( Number(x) * Number(y) );
+    
     }
