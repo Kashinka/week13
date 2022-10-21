@@ -4,7 +4,7 @@
   
 let name = prompt('Как тебя зовут?', "Имя");
 
-alert('Привет, ' + name);
+alert(`Привет, ${name}`);
 
 }*/
 
@@ -16,7 +16,7 @@ let showMessage = () => {
 
     let name = prompt('Как тебя зовут?', "Имя");
 
-    alert('Привет, ' + name);
+    alert(`Привет, ${name}`);
 
 };
 
